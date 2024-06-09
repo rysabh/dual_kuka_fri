@@ -1,7 +1,7 @@
 # issue: dual_kuka_fri
 
 
-I want to create a dual-iiwa7 arm setup in ROS2 using the FRI stack. I have already created a custom Xacro file that uses the robot namespace to spawn two robots. However, for simplifying the issue here I will only spawn one robot in my moveit package named "green_moveit_config". Our public Github repo is [here](https://github.com/rysabh/dual_kuka_fri).
+I want to create a dual-iiwa7 arm setup in ROS2 using the FRI stack. I have already created a custom Xacro file that uses the robot namespace to spawn two robots. However, for simplifying the issue, here I will only spawn one robot in my moveit package named "green_moveit_config". Our public Github repo is [here](https://github.com/rysabh/dual_kuka_fri).
 
 In the Xacro file, I have also renamed link and joint names with a prefix to manage both arms in the same environment.
 
