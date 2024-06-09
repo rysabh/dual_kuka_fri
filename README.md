@@ -27,9 +27,9 @@ However, I am encountering several issues:
 2. Launch the custom MoveIt `ros2 launch green_moveit_config demo.launch`.
 
 **Error:**
-There is a mismatch in joint names. Planning works, but execution on the real robot fails. 
+I can visualize the current robot state and also planning to an new state works. However, the execution on the real robot fails. 
 
-We observe this when doing a ROS2 service call `/kuka_green/controller_manager/list_controllers controller_manager_msgs/srv/ListControllers` and get the following response:
+There is a mismatch in joint names. We observe this when doing a ROS2 service call `/kuka_green/controller_manager/list_controllers controller_manager_msgs/srv/ListControllers` and get the following response:
 
 ```
 response:
