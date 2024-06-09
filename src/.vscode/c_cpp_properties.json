@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/battery/lbr-stack/install/lbr_ros2_control/include/**",
+        "/home/battery/lbr-stack/install/lbr_fri_ros2/include/**",
+        "/home/battery/lbr-stack/install/lbr_fri_idl/include/**",
+        "/home/battery/lbr_doe_ws/install/lbr_ros2_control/include/**",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_ros2/include/**",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_moveit_msgs/include/**",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_idl/include/**",
+        "/home/battery/lbr_doe_ws/install/bio_ik/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/battery/lbr-stack/src/lbr_fri_ros2_stack/lbr_fri_ros2/include/**",
+        "/home/battery/lbr-stack/src/lbr_fri_ros2_stack/lbr_ros2_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

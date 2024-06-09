@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/battery/lbr-stack/build/lbr_demos_py",
+        "/home/battery/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages",
+        "/home/battery/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr-stack/build/lbr_demos_advanced_py",
+        "/home/battery/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages",
+        "/home/battery/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr_doe_ws/install/move_robot/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_demos_py/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_bringup/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_demos_advanced_py/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/data_collection/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_moveit_msgs/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_idl/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/battery/lbr-stack/build/lbr_demos_py",
+        "/home/battery/lbr-stack/install/lbr_demos_py/lib/python3.10/site-packages",
+        "/home/battery/lbr-stack/install/lbr_bringup/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr-stack/build/lbr_demos_advanced_py",
+        "/home/battery/lbr-stack/install/lbr_demos_advanced_py/lib/python3.10/site-packages",
+        "/home/battery/lbr-stack/install/lbr_fri_idl/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr_doe_ws/install/move_robot/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_demos_py/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_bringup/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_demos_advanced_py/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/data_collection/lib/python3.10/site-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_moveit_msgs/local/lib/python3.10/dist-packages",
+        "/home/battery/lbr_doe_ws/install/lbr_fri_idl/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
