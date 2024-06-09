@@ -1,7 +1,7 @@
-# dual_kuka_fri
+# issue: dual_kuka_fri
 
 
-I want to create a dual-iiwa7 arm setup in ROS2 using the FRI stack. I have already created a custom Xacro file that uses the robot namespace to spawn two robots.
+I want to create a dual-iiwa7 arm setup in ROS2 using the FRI stack. I have already created a custom Xacro file that uses the robot namespace to spawn two robots. However, for simplifying the issue here I will only spawn one robot in my moveit package named "green_moveit_config". Our public Github repo is [here](https://github.com/rysabh/dual_kuka_fri).
 
 In the Xacro file, I have also renamed link and joint names with a prefix to manage both arms in the same environment.
 
@@ -24,7 +24,7 @@ However, I am encountering several issues:
 **Steps to Reproduce the Error:**
 
 1. Launch the default `bringup.launch.py` with `model:=iiwa7` and `rviz:=false` and `moveit:=false` and `sim:=false`.
-2. Launch the custom MoveIt `demo.launch`.
+2. Launch the custom MoveIt `ros2 launch green_moveit_config demo.launch`.
 
 **Error:**
 There is a mismatch in joint names. Planning works, but execution on the real robot fails. 
@@ -48,3 +48,5 @@ The system should correctly recognize and manage the custom link and joint names
 
 **Actual Behavior:**
 Mismatch in link and joint names leading to errors in the system's operation. The controller manager does not reflect the changes expected from the modified configuration.
+
+Additionally we noticed that, when the link and joint names are not changed, and the launch file is launched with default `robot_name:=lbr`, it works. 
